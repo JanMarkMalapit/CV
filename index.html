@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    
+</head>
+<body>
+<div id="header">
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <div class="container">
+        <nav>
+            <img src="img/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars bars" onclick="openmenu()"></i>
+        </nav>
+        </div>
+        <div class="header-text">
+            <h2>Hi, I'm <span>Jan Mark</span></h2>
+            <h4>Front-end Web Developer/Designer</h4>
+            <p>I always have the desire to learn new things.<br>
+                  Have a nice trip visiting my Portfolio.</p>
+                 <a href="#contact"> <button class="btn hire-btn">Hire me</button></a>
+                 <div class="custom-shape-divider-bottom-1669714142">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                    </svg>
+                 </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------------------about--------------------------- -->
+<div id="about">
+    <div class="custom-shape-divider-bottom-1669717248">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/light-black.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+            <div>
+                <p> I'm a computer engineering student, I offer my whole determination and service during the allotted time of my job and hoping to be an asset to you and this company in the near future.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                       <li><span>Front-end Web Development</span></li>
+                       <li>HTML</li>
+                       <li>CSS/Bootstrap</li>
+                       <li>JS/React JS</li>
+                       <li>Wordpress</li>
+                       <li>Photoshop</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                       <li><span>2022 - Current</span><br>Freelance Front End Web Developer and Graphic Design
+                       <li><span>2022 </span><br>Internship at GMA LGU ICT</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                       <li><span>2022 - Current</span><br>4th year Computer Engineering From CvSU Carmona</li>
+                       <li><span>2018 - 2019</span><br>High School Graduate From GMATHS GMA Cavite</li>
+                    </ul>
+                </div>
+                <div class="custom-shape-divider-top-1669715734">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+                </div>
+            </div> 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------------Services-------------------------------- -->
+<div id="services">
+    <div class="custom-shape-divider-top-1669715734">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="custom-shape-divider-bottom-1669717248">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,
+                886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <P>Builds the front-end portion of websites and web applications that is, the part that users actually see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</P>
+                <a href="#portfolio">Learn more</a>
+            </div>
+            <div class="box">
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                   <P>Builds the front-end portion of websites and web applications that is, the part that users actually see and interact with. A 
+                front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to 
+                access and interact with the site or app.</P>
+                <a href="#portfolio">Learn more</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-crop-alt"></i>
+                <h2>Wordpress Development</h2>
+                  <P>Builds the front-end portion of websites and web applications that is, the part that users actually see and interact with. A 
+               front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to 
+               access and interact with the site or app.</P>
+               </p>
+                <a href="#portfolio">Learn more</a>
+            </div>
+            <div class="box">
+                <i class="fa fa-edit"></i>
+                <h2>Landing Page</h2>
+                  <P>Builds the front-end portion of websites and web applications that is, the part that users actually see and interact with. A 
+               front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to 
+               access and interact with the site or app.</P>
+                <a href="#portfolio">Learn more</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <h2>Photoshop</h2>
+                <P>Builds the front-end portion of websites and web applications that is, the part that users actually see and interact with. A 
+             front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to 
+             access and interact with the site or app.</P>
+                <a href="#portfolio">Learn more</a>
+            </div>
+            <div class="box">
+                <i class=" fas fa-palette"></i>
+                <h2>Canva</h2>
+                <P>Builds the front-end portion of websites and web applications that is, the part that users actually see and interact with. A 
+                    front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to 
+                    access and interact with the site or app.</P>
+                <a href="#portfolio">Learn more</a>
+            </div>
+        </div>
+        <button class="btn"  id="see-more">See more</button>
+        
+    </div> 
+</div>
+<!-- ----------------------------------------------Portfolio-------------------------------------------->
+<div id="portfolio">
+    <div class="custom-shape-divider-top-1669715734">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work2.png">
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p>The website will be a virtual store where people can request  services and equipment that is related to hydroponics system</p>
+                    <a href="https://github.com/JanMarkMalapit/JanMarkMalapit" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work"> 
+                <img src="img/work3.png">
+                <div class="layer">
+                    <h3>Employee management system</h3>
+                    <p>The website can add new user and admin that will use the app to manage  organization employees</p>
+                    <a href="https://github.com/JanMarkMalapit/JanMarkMalapit" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work1.png">
+                <div class="layer">
+                    <h3>Web base monitoring app</h3>
+                    <p>The app will allow the user to monitor the pH level, Water level and  Water temperature of the hydroponic system</P>  
+                    <a href="https://design.penpot.app/#/workspace/ddf77a3a-3625-818d-8001-7ab3691201ca/e8b3498a-41f9-8006-8001-7ab3727cbf9a?page-id=e8b3498a-41f9-8006-8001-7ab3727cbf9b" target="_blank" ><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work6.jpg">
+                <div class="layer">
+                  <h3></h3>
+                  <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work4.png">
+                <div class="layer">
+                   <h3></h3>
+                   <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work6.jpg">
+                <div class="layer">
+               <h3></h3>
+               <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work13.png">
+                <div class="layer">
+                    <h3></h3>
+                    <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work14.png">
+                <div class="layer">
+                  <h3></h3>
+                  <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work15.png">
+                <div class="layer">
+                    <h3></h3>
+                    <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work7.png">
+                <div class="layer">
+                    <h3></h3>
+                    <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work8.png">
+                <div class="layer">
+                  <h3></h3>
+                  <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work9.png">
+                <div class="layer">
+                    <h3></h3>
+                    <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work10.png">
+                <div class="layer">
+                    <h3></h3>
+                    <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work11.png">
+                <div class="layer">
+                  <h3></h3>
+                  <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work12.png">
+                <div class="layer">
+                    <h3></h3>
+                    <p>PHOTOSHOP</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <button class="btn" id="more-work">See more</button>
+    </div>
+</div>
+<!-- --------------------------------------------------------Testimonials -->
+<div id="testimonial">
+    <div class="container">
+     <div class="testimonial mySwiper">
+       <div class="testi-content swiper-wrapper">
+         <div class="slide swiper-slide">
+           <img src="img/client1.jpg" alt="" class="image" />
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+             saepe provident dolorem a quaerat quo error facere nihil deleniti
+             eligendi ipsum adipisci, fugit, architecto amet asperiores
+             doloremque deserunt eum nemo.
+           </p>
+            <i class="fa-solid fa-quote-left  quote-icon" ></i>
+           <div class="details">
+             <span class="name">Florenda Roque</span>
+             <span class="job">Social Work</span>
+           </div>
+         </div>
+         <div class="slide swiper-slide">
+           <img src="img/client2.jpg" alt="" class="image" />
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+             saepe provident dolorem a quaerat quo error facere nihil deleniti
+             eligendi ipsum adipisci, fugit, architecto amet asperiores
+             doloremque deserunt eum nemo.
+           </p>
+           <i class="fa-solid fa-quote-left  quote-icon" ></i>
+           <div class="details">
+             <span class="name">Achai Villanueva</span>
+             <span class="job">Accountant</span>
+           </div>
+         </div>
+         <div class="slide swiper-slide">
+           <img src="img/client3.jpg" alt="" class="image" />
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+             saepe provident dolorem a quaerat quo error facere nihil deleniti
+             eligendi ipsum adipisci, fugit, architecto amet asperiores
+             doloremque deserunt eum nemo.
+           </p>
+           <i class="fa-solid fa-quote-left  quote-icon" ></i>
+           <div class="details">
+             <span class="name">Marga Roque</span>
+             <span class="job">Nurse</span>
+           </div>
+         </div>
+       </div>
+       <div class="swiper-button-next nav-btn"></div>
+       <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+     </div>
+ </div>
+ </div>
+<!-- -------------------------------------------contact----- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class= "fas fa-paper-plane "></i>janmarkmalapit@gmail.com</p>
+                <p><i class= "fas fa-phone-square-alt "></i>09550341927</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="img/Jan_Mark_Malapit_CV.pdf" download class="btn btn2"  id="dl" target="_blank">Download CV <i class="fas fa-angle-double-down arrow"></i></a><br>
+                <span id="text"></span>
+            </div>
+            <div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit </button>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+<footer>
+    <div class="useful-links">
+        <h3>Useful Links <div class="underline"><span></span></div> </h3>
+        <ul class="nav-links">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="copyright">
+        <p> &copy; 2022 JM Malapit | All Rights Reserved</p>
+    </div>
+</footer>
+
+</div>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
