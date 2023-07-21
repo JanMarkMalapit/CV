@@ -662,6 +662,12 @@ hr{
         display: block;
         margin: 50px 75px 0;
     }
+    nav .menu li:last-child {
+         width: 100%;
+         float: none;
+         position: relative;
+    }
+
     nav ul .fas{
         position: absolute;
         top: 25px;
