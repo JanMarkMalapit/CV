@@ -662,7 +662,8 @@ hr{
         display: block;
         margin: 50px 75px 0;
     }
-    nav .menu li:last-child {
+    nav .menu ul li:last-child {
+         display: block;
          width: 100%;
          float: none;
          position: relative;
